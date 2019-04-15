@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .container {
@@ -10,12 +9,11 @@
   flex-direction: column;
   justify-content: top;
   min-height: 100vh;
-  background-color:#F6F6F6;
+  background-color: #f6f6f6;
 }
 .search-container {
   margin: 20vh 0 10vh 0;
   text-align: center;
-
 }
 .input {
   font-size: 1.5rem;
@@ -27,33 +25,3 @@
   padding: 8px;
   background-color: lightgrey;
 }
-.result-container {
-  display: flex;
-  justify-content: center;
-
-}
-.cover {
-
-  flex-basis: 20%;
-  padding: 3%;
-  border: 1px solid grey;
-
-}
-.title-description-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 40%;
-
-}
-.title {
-  border: 1px solid grey;
-  flex-basis: 100%;
-  padding: 3%;
-}
-.description {
-  border: 1px solid grey;
-  flex-basis: 100%;
-  padding: 3%;
-}
-
-
